@@ -17,7 +17,7 @@ class Reply extends Model
         return $this->belongsTo(User::class);
     }
 
-    public function likes()
+    public function like()
     {
         return $this->hasMany(Like::class);
     }
