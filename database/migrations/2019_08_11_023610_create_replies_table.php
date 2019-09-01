@@ -18,10 +18,10 @@ class CreateRepliesTable extends Migration
             $table->text('body');
 
             $table->biginteger('question_id')->unsigned();
+            $table->foreign('question_id')->references('id')->on('questions');
             $table->biginteger('user_id')->unsigned();
+            $table->foreign('user_id')->references('id')->on('users');
 
-            $table->foreign('question_id')->references('id')->on('questions')
-            ->onDelete('cascade');
             $table->timestamps();
         });
     }
