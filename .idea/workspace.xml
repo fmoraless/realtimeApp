@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc681309-8d17-4888-929a-a3274d72c212" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/QuestionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/QuestionController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Model/Question.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Model/Question.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_08_11_013857_create_questions_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_08_11_013857_create_questions_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_08_11_023610_create_replies_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_08_11_023610_create_replies_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/migrations/2019_08_11_024113_create_categories_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_08_10_024113_create_categories_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_08_11_024551_create_likes_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_08_11_024551_create_likes_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -182,7 +178,7 @@
       <workItem from="1566708673308" duration="348000" />
       <workItem from="1566709050056" duration="11011000" />
       <workItem from="1567047481810" duration="39000" />
-      <workItem from="1567366374607" duration="3257000" />
+      <workItem from="1567366374607" duration="4251000" />
     </task>
     <task id="LOCAL-00001" summary="Instalacion laravel 5.7">
       <created>1566151035461</created>
@@ -219,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566779308519</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Modificación el las relaciones.">
+      <created>1567382194004</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1567382194004</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,6 +247,7 @@
     <MESSAGE value="Question, Reply and User Relationship." />
     <MESSAGE value="Corrección common error Migrate." />
     <MESSAGE value="Factory and Seeders." />
-    <option name="LAST_COMMIT_MESSAGE" value="Factory and Seeders." />
+    <MESSAGE value="Modificación el las relaciones." />
+    <option name="LAST_COMMIT_MESSAGE" value="Modificación el las relaciones." />
   </component>
 </project>
