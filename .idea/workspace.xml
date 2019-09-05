@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc681309-8d17-4888-929a-a3274d72c212" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Http/Resources/QuestionResource.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/QuestionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/QuestionController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Model/Question.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Model/Question.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_08_11_024113_create_categories_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_08_10_024113_create_categories_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_08_11_023610_create_replies_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_08_11_023610_create_replies_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_08_11_024551_create_likes_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_08_11_024551_create_likes_table.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,16 +19,8 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
-      <executable />
+      <executable path="composer" />
     </execution>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>Appservice</find>
-    </findStrings>
-    <replaceStrings>
-      <replace />
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -176,7 +173,10 @@
       <workItem from="1566708673308" duration="348000" />
       <workItem from="1566709050056" duration="11011000" />
       <workItem from="1567047481810" duration="39000" />
-      <workItem from="1567366374607" duration="4546000" />
+      <workItem from="1567366374607" duration="13884000" />
+      <workItem from="1567480294842" duration="2087000" />
+      <workItem from="1567522517770" duration="88000" />
+      <workItem from="1567649056644" duration="1960000" />
     </task>
     <task id="LOCAL-00001" summary="Instalacion laravel 5.7">
       <created>1566151035461</created>
@@ -227,7 +227,21 @@
       <option name="project" value="LOCAL" />
       <updated>1567383333258</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Asignación masiva de Questions.">
+      <created>1567383392939</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1567383392939</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Modicación fecha, para que se cree antes la migración..">
+      <created>1567383467656</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1567383467656</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,6 +268,8 @@
     <MESSAGE value="Factory and Seeders." />
     <MESSAGE value="Modificación el las relaciones." />
     <MESSAGE value="Métodos y rutas de Questions." />
-    <option name="LAST_COMMIT_MESSAGE" value="Métodos y rutas de Questions." />
+    <MESSAGE value="Asignación masiva de Questions." />
+    <MESSAGE value="Modicación fecha, para que se cree antes la migración.." />
+    <option name="LAST_COMMIT_MESSAGE" value="Modicación fecha, para que se cree antes la migración.." />
   </component>
 </project>
