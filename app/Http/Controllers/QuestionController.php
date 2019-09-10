@@ -7,6 +7,7 @@ use App\Model\Question;
 //use http\Env\Response;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Response;
+use PhpParser\Node\Stmt\Return_;
 
 class QuestionController extends Controller
 {
@@ -55,7 +56,8 @@ class QuestionController extends Controller
      */
     public function update(Request $request, Question $question)
     {
-        //
+        $question->update($request->all());
+        return response('Update', 202);
     }
 
     /**
