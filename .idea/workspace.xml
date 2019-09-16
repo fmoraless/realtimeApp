@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="dc681309-8d17-4888-929a-a3274d72c212" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ReplyController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ReplyController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Model/Reply.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Model/Reply.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -175,7 +174,9 @@
       <workItem from="1567522517770" duration="88000" />
       <workItem from="1567649056644" duration="4964000" />
       <workItem from="1567892905903" duration="3888000" />
-      <workItem from="1568081453625" duration="8208000" />
+      <workItem from="1568081453625" duration="8380000" />
+      <workItem from="1568586870824" duration="838000" />
+      <workItem from="1568587945125" duration="6938000" />
     </task>
     <task id="LOCAL-00001" summary="Instalacion laravel 5.7">
       <created>1566151035461</created>
@@ -261,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568085476327</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Metodos Index, Show, Store and Delete for Reply.">
+      <created>1568090897455</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1568090897455</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,6 +301,7 @@
     <MESSAGE value="Question Resource." />
     <MESSAGE value="Ondelete en migraciones replies and likes." />
     <MESSAGE value="CRUD Category." />
-    <option name="LAST_COMMIT_MESSAGE" value="CRUD Category." />
+    <MESSAGE value="Metodos Index, Show, Store and Delete for Reply." />
+    <option name="LAST_COMMIT_MESSAGE" value="Metodos Index, Show, Store and Delete for Reply." />
   </component>
 </project>
