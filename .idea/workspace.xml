@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc681309-8d17-4888-929a-a3274d72c212" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/AuthController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/JWT.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/jwt.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/realtimeApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/realtimeApp.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/LikeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/LikeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Model/Like.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Model/Like.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -110,6 +119,11 @@
       <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
       <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
       <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php56" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-util" />
+      <path value="$PROJECT_DIR$/vendor/tymon/jwt-auth" />
+      <path value="$PROJECT_DIR$/vendor/lcobucci/jwt" />
+      <path value="$PROJECT_DIR$/vendor/namshi/jose" />
     </include_path>
   </component>
   <component name="ProjectConfigurationFiles">
@@ -177,7 +191,9 @@
       <workItem from="1567892905903" duration="3888000" />
       <workItem from="1568081453625" duration="8380000" />
       <workItem from="1568586870824" duration="838000" />
-      <workItem from="1568587945125" duration="9594000" />
+      <workItem from="1568587945125" duration="18992000" />
+      <workItem from="1569001791601" duration="72000" />
+      <workItem from="1569001884768" duration="8817000" />
     </task>
     <task id="LOCAL-00001" summary="Instalacion laravel 5.7">
       <created>1566151035461</created>
@@ -284,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568603949427</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Likes and Dislikes.">
+      <created>1568606613222</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1568606613222</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,6 +342,7 @@
     <MESSAGE value="Metodos Index, Show, Store and Delete for Reply." />
     <MESSAGE value="Resource Category and Reply." />
     <MESSAGE value="Update Reply." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Reply." />
+    <MESSAGE value="Likes and Dislikes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Likes and Dislikes." />
   </component>
 </project>
