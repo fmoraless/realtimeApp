@@ -3,19 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="dc681309-8d17-4888-929a-a3274d72c212" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/resources/js/Router/router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/components/AppFooter.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/components/AppHome.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/components/ToolBar.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/components/login/Login.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
@@ -218,7 +208,7 @@
       <workItem from="1569986732892" duration="2155000" />
       <workItem from="1570029765451" duration="196000" />
       <workItem from="1570066021014" duration="12347000" />
-      <workItem from="1570145990835" duration="12491000" />
+      <workItem from="1570145990835" duration="12759000" />
     </task>
     <task id="LOCAL-00001" summary="Instalacion laravel 5.7">
       <created>1566151035461</created>
@@ -346,7 +336,35 @@
       <option name="project" value="LOCAL" />
       <updated>1570204597480</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Middleware JWT.">
+      <created>1570204676524</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1570204676524</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Función encritar password de usuario.">
+      <created>1570204725758</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1570204725758</updated>
+    </task>
+    <task id="LOCAL-00021" summary="css y js publico.">
+      <created>1570204821445</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1570204821445</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Componentes vue.js.">
+      <created>1570204870767</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1570204870767</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -384,6 +402,10 @@
     <MESSAGE value="Likes and Dislikes." />
     <MESSAGE value="Paquete JWT." />
     <MESSAGE value="Controladores." />
-    <option name="LAST_COMMIT_MESSAGE" value="Controladores." />
+    <MESSAGE value="Middleware JWT." />
+    <MESSAGE value="Función encritar password de usuario." />
+    <MESSAGE value="css y js publico." />
+    <MESSAGE value="Componentes vue.js." />
+    <option name="LAST_COMMIT_MESSAGE" value="Componentes vue.js." />
   </component>
 </project>
