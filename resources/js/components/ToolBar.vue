@@ -29,6 +29,11 @@
                 ]
             }
         },
+        created(){
+            EventBus.$on('logout', () => {
+                User.logout()
+            })
+        },
         mounted() {
             console.log('Component mounted.')
         }
