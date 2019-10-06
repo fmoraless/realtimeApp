@@ -5,7 +5,7 @@
             <div class="flex-grow-1"></div>
             <v-spacer></v-spacer>
             <div class="hidden-sm-and-down">
-                <router-link to="">
+                <router-link to="/forum">
                     <v-btn text>Foro</v-btn>
                 </router-link>
                 <router-link to="">
