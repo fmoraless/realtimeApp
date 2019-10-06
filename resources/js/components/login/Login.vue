@@ -1,24 +1,29 @@
 <template>
     <v-container>
-    <v-form @submit.prevent="login">
-            <v-text-field
-                v-model="form.email"
-                label="E-mail"
-                type="email"
-                required
-            ></v-text-field>
+        <v-form @submit.prevent="login">
+                <v-text-field
+                    v-model="form.email"
+                    label="E-mail"
+                    type="email"
+                    required
+                ></v-text-field>
 
-            <v-text-field
-                v-model="form.password"
-                label="Password"
-                type="password"
-                required
-            ></v-text-field>
-        <v-btn
-        type="submit">
-            Login
-        </v-btn>
-    </v-form>
+                <v-text-field
+                    v-model="form.password"
+                    label="Password"
+                    type="password"
+                    required
+                ></v-text-field>
+            <v-btn
+            type="submit">
+                Login
+            </v-btn>
+
+            <router-link to="signup">
+                <v-btn>SignUp</v-btn>
+            </router-link>
+
+        </v-form>
     </v-container>
 </template>
 

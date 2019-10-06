@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dc681309-8d17-4888-929a-a3274d72c212" name="Default Changelist" comment="Rutas api y web.">
-      <change afterPath="$PROJECT_DIR$/resources/js/Helpers/AppStorage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/Helpers/Token.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/Helpers/User.js" afterDir="false" />
+    <list default="true" id="dc681309-8d17-4888-929a-a3274d72c212" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/SignupRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/login/signup.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AuthController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/Helpers/Token.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Helpers/Token.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/Router/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Router/router.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/components/login/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/login/Login.vue" afterDir="false" />
     </list>
@@ -40,8 +41,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Vue Single File Component" />
         <option value="JavaScript File" />
+        <option value="Vue Single File Component" />
       </list>
     </option>
   </component>
@@ -186,6 +187,9 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="ServiceViewManager">
+    <option name="showServicesTree" value="false" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -224,7 +228,8 @@
       <workItem from="1569986732892" duration="2155000" />
       <workItem from="1570029765451" duration="196000" />
       <workItem from="1570066021014" duration="12347000" />
-      <workItem from="1570145990835" duration="33243000" />
+      <workItem from="1570145990835" duration="35129000" />
+      <workItem from="1570302780542" duration="6753000" />
     </task>
     <task id="LOCAL-00001" summary="Instalacion laravel 5.7">
       <created>1566151035461</created>
@@ -394,7 +399,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570204953382</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Login, logout Helpers.">
+      <created>1570238693271</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1570238693271</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -438,6 +450,7 @@
     <MESSAGE value="Componentes vue.js." />
     <MESSAGE value="Vuetify, vueRouter y home." />
     <MESSAGE value="Rutas api y web." />
-    <option name="LAST_COMMIT_MESSAGE" value="Rutas api y web." />
+    <MESSAGE value="Login, logout Helpers." />
+    <option name="LAST_COMMIT_MESSAGE" value="Login, logout Helpers." />
   </component>
 </project>

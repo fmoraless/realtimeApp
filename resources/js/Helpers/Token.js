@@ -2,8 +2,9 @@ class Token {
 
     isValid(token){
         const payload = this.payload(token);
+        //console.log(payload.iss) -->comprobar que ruta está pasando
         if(payload){
-            return payload.iss === "http://127.0.0.1:8000/api/auth/login"
+            return payload.iss === "http://127.0.0.1:8000/api/auth/login" || "http://127.0.0.1:8000/api/auth/signup"
         }
 
         return false
