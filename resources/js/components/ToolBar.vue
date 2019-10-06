@@ -5,17 +5,12 @@
             <div class="flex-grow-1"></div>
             <v-spacer></v-spacer>
             <div class="hidden-sm-and-down">
-                <router-link to="/forum">
-                    <v-btn text>Foro</v-btn>
-                </router-link>
-                <router-link to="">
-                    <v-btn text>Pregunta</v-btn>
-                </router-link>
-                <router-link to="">
-                    <v-btn text>Categorías</v-btn>
-                </router-link>
-                <router-link to="/login">
-                    <v-btn text>Login</v-btn>
+                <router-link
+                    v-for="item in items"
+                    :key="item.title"
+                    :to="item.to"
+                    v-if="item.show">
+                        <v-btn text>{{item.title}}</v-btn>
                 </router-link>
             </div>
         </v-toolbar>
@@ -23,6 +18,17 @@
 
 <script>
     export default {
+        data(){
+            return {
+                items: [
+                    {title : 'Forum', to: '/forum', show:true},
+                    {title : 'Pregunta', to: '/pregunta', show: User.loggedIn()},
+                    {title : 'Categoría', to: '/categoria', show: User.loggedIn()},
+                    {title : 'Login', to: '/login', show: !User.loggedIn()},
+                    {title : 'Logout', to: '/logout', show: User.loggedIn()},
+                ]
+            }
+        },
         mounted() {
             console.log('Component mounted.')
         }
