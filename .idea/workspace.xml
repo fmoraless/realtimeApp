@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc681309-8d17-4888-929a-a3274d72c212" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/js/components/forum/ShowQuestion.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/forum/question.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/forum/read.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Model/Question.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Model/Question.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/Helpers/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Helpers/User.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/Router/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Router/router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/ToolBar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/ToolBar.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/login/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/login/Login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/forum/Forum.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/forum/Forum.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -227,7 +229,11 @@
       <workItem from="1570029765451" duration="196000" />
       <workItem from="1570066021014" duration="12347000" />
       <workItem from="1570145990835" duration="35129000" />
-      <workItem from="1570302780542" duration="14301000" />
+      <workItem from="1570302780542" duration="14844000" />
+      <workItem from="1570404281106" duration="86000" />
+      <workItem from="1570410910500" duration="3628000" />
+      <workItem from="1570675363468" duration="3069000" />
+      <workItem from="1570755134974" duration="14176000" />
     </task>
     <task id="LOCAL-00001" summary="Instalacion laravel 5.7">
       <created>1566151035461</created>
@@ -425,7 +431,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570337146763</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Logout.">
+      <created>1570339642561</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1570339642561</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -445,7 +458,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Corrección common error Migrate." />
     <MESSAGE value="Factory and Seeders." />
     <MESSAGE value="Modificación el las relaciones." />
     <MESSAGE value="Métodos y rutas de Questions." />
@@ -470,6 +482,7 @@
     <MESSAGE value="Signup." />
     <MESSAGE value="Redirige a Forum despues de Login o Signup." />
     <MESSAGE value="Muestra si está logueado." />
-    <option name="LAST_COMMIT_MESSAGE" value="Muestra si está logueado." />
+    <MESSAGE value="Logout." />
+    <option name="LAST_COMMIT_MESSAGE" value="Logout." />
   </component>
 </project>
